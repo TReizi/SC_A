@@ -1,4 +1,4 @@
-package security.configuration;
+package sc_back.configuration;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 

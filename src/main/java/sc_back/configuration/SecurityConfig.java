@@ -1,4 +1,4 @@
-package security.configuration;
+package sc_back.configuration;
 
 
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;

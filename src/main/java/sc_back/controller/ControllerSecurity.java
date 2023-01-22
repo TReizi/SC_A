@@ -1,4 +1,4 @@
-package controller;
+package sc_back.controller;
 
 
 import org.springframework.stereotype.Controller;
@@ -8,7 +8,7 @@ public class ControllerSecurity {
 
     @GetMapping("/" )
     public String getInfoForAllEmps(){
-        return "view_for_all_emplayees";
+        return "index";
     }
 
     @GetMapping("/hr_info")

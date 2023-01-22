@@ -1,4 +1,4 @@
-package security.configuration;
+package sc_back.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -8,7 +8,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
-@ComponentScan(basePackages = "security")
+@ComponentScan(basePackages = "sc_back")
 @EnableWebMvc
 public class Config {
 
