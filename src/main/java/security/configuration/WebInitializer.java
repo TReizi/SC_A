@@ -1,4 +1,4 @@
-package com.selfie.spring.security.configuration;
+package security.configuration;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
@@ -10,7 +10,7 @@ public class WebInitializer extends AbstractAnnotationConfigDispatcherServletIni
 
     @Override
     protected Class<?>[] getServletConfigClasses() {
-        return new Class[]{MyConfig.class};
+        return new Class[]{Config.class};
     }
 
     @Override

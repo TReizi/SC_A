@@ -9,5 +9,8 @@
         <module name="SC_A" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="scMain" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

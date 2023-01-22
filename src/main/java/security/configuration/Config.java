@@ -1,4 +1,4 @@
-package com.selfie.spring.security.configuration;
+package security.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -8,16 +8,16 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
-@ComponentScan(basePackages = "com.selfie.spring.security")
+@ComponentScan(basePackages = "security")
 @EnableWebMvc
-public class MyConfig {
+public class Config {
 
 
     @Bean
     public ViewResolver viewResolver(){
         InternalResourceViewResolver internalResourceViewResolver = new InternalResourceViewResolver();
 
-        internalResourceViewResolver.setPrefix("/webApp/security/");
+        internalResourceViewResolver.setPrefix("/WEB-INF/view/");
         internalResourceViewResolver.setSuffix(".jsp");
 
         return internalResourceViewResolver;
